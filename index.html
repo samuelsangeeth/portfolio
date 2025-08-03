@@ -1,123 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Samuel Sangeeth Ponraj - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Sangeeth Ponraj</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav__logo">Samuel Sangeeth</a>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+    <header>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Samuel Sangeeth Ponraj</h1>
+        <p>Electronics and Communication Engineer | Power Electronics | Energy Systems</p>
+        <div class="contact">
+            <p>📞 +7358056766 | 📧 sgp041006@gmail.com</p>
+            <a href="https://www.linkedin.com/in/samuel-sangeeth-ponraj/">LinkedIn</a> |
+            <a href="https://github.com/samuelsangeeth">GitHub</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Education</h2>
+        <p><strong>St. Joseph’s Institute of Technology</strong> – Chennai, India (2023–2027)<br>
+        Bachelor of Engineering in Electronics and Communication Engineering (CGPA: 7.97 till 4th Sem.)</p>
+        <p><strong>The Indian High School</strong> – Dubai, UAE (2019–2023)<br>
+        Higher Secondary (83%)</p>
+    </section>
+
+    <section class="section">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Conceptual:</strong> Power Electronics, BMS, Energy Storage Systems, Building Automation, Renewable Energy, EV Fundamentals</li>
+            <li><strong>Programming:</strong> MATLAB, Python, C, HTML/CSS, Java(Node.js)</li>
+            <li><strong>Professional:</strong> Teamwork, Technical Writing, Problem Solving, Communication</li>
         </ul>
-      </div>
-      <div class="nav__toggle" id="nav-toggle">&#9776;</div>
-    </nav>
-  </header>
+    </section>
 
-  <main class="main">
-    <section class="home" id="home">
-      <div class="home__container container">
-        <div class="home__data">
-          <h1 class="home__title">Hi, I'm Samuel Sangeeth</h1>
-          <h3 class="home__subtitle">ECE Student | EV Tech Enthusiast</h3>
-          <p class="home__description">
-            Passionate about electric vehicle technology, battery systems, and sustainable innovation.
-          </p>
+    <section class="section">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Power Electronics & R&D Intern – NUMERIC INDIA</h3>
+            <p><em>June 2024 – July 2024 | R&D Branch, Perungudi, India</em></p>
+            <ul>
+                <li>Worked on renewable energy solutions and power electronics R&D</li>
+                <li>Analyzed and contributed to Energy Storage and BMS systems</li>
+                <li>Improved energy efficiency in photovoltaic system integration</li>
+                <li>Collaborated cross-functionally to enhance technical communication</li>
+            </ul>
         </div>
-        <div class="home__img-container">
-          <img src="profile.jpg" alt="Samuel Sangeeth" class="home__img" />
+
+        <div class="job">
+            <h3>Building Automation & BMS Intern – DEOS Middle East FZCO</h3>
+            <p><em>July 2024 – August 2024 | Dubai, UAE</em></p>
+            <ul>
+                <li>Developed HVAC control systems and building automation models</li>
+                <li>Built air filter simulation using in-house software</li>
+                <li>Diagnosed and optimized system performance</li>
+            </ul>
         </div>
-      </div>
     </section>
 
-    <section class="about section" id="about">
-      <h2 class="section__title">About Me</h2>
-      <p>
-        I am an Electronics and Communication Engineering student focused on EV tech, battery management, and cybersecurity.
-      </p>
+    <section class="section">
+        <h2>Research & Publications</h2>
+        <p><strong>Design and Analysis of Passive Cell Balancing Strategies for Lithium-Ion Battery Packs in EVs</strong><br>
+        Submitted to IEEE ICOAINT | July 2025 (Under Review)</p>
+        <ul>
+            <li>Improved battery life and performance through passive balancing</li>
+            <li>Suggested cost-effective solutions over complex active balancing</li>
+        </ul>
     </section>
 
-    <section class="skills section" id="skills">
-      <h2 class="section__title">Skills</h2>
-      <div class="skills__container container">
-        <div class="skills__group">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>Battery Management Systems</li>
-            <li>EV System Integration</li>
-            <li>C, Python, Node.js</li>
-            <li>Cyber Security</li>
-          </ul>
-        </div>
-        <div class="skills__group">
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Public Speaking</li>
-            <li>Leadership</li>
-            <li>Problem Solving</li>
-            <li>Team Collaboration</li>
-          </ul>
-        </div>
-      </div>
+    <section class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>A Fully Renewable Energy Electric Vehicle</strong><br>
+            Self-sustaining EV powered by wind, rain, and hydraulic energy</li>
+            <li><strong>Borewell Rescue System</strong><br>
+            Designed low-vibration drill and inflatable balloon mechanism to save trapped children</li>
+        </ul>
     </section>
 
-    <section class="projects section" id="projects">
-      <h2 class="section__title">Projects</h2>
-      <div class="projects__container container">
-        <article class="project__card">
-          <h3>Portfolio Website</h3>
-          <p>A personal portfolio built with HTML, CSS & JavaScript, deployed on Vercel.</p>
-          <a href="https://github.com/samuelsangeeth/portfolio" target="_blank" class="project__link">View on GitHub</a>
-        </article>
-        <!-- Add more project cards here -->
-      </div>
-    </section>
-
-    <section class="contact section" id="contact">
-      <h2 class="section__title">Contact Me</h2>
-      <form class="contact__form" id="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <p>Email: <a href="mailto:sqp040106@gmail.com">sqp040106@gmail.com</a></p>
-      <p>Phone: +91 7358056766</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/samuel-sangeeth-ponraj/" target="_blank">samuel-sangeeth-ponraj</a></p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© 2025 Samuel Sangeeth Ponraj</p>
-  </footer>
-
-  <script>
-    // Mobile menu toggle
-    const navToggle = document.getElementById('nav-toggle');
-    const navMenu = document.getElementById('nav-menu');
-
-    navToggle.addEventListener('click', () => {
-      navMenu.classList.toggle('show-menu');
-    });
-
-    // Smooth scroll for nav links
-    document.querySelectorAll('.nav__link').forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        const section = document.querySelector(link.getAttribute('href'));
-        section.scrollIntoView({ behavior: 'smooth' });
-        navMenu.classList.remove('show-menu');
-      });
-    });
-  </script>
+    <footer>
+        <p>&copy; 2025 Samuel Sangeeth Ponraj</p>
+    </footer>
 </body>
 </html>
